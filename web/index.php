@@ -32,9 +32,9 @@ $app->post('/enviarDato', function (Request $request) use ($app) {
 
 
 //Ruta de demostración, se recibe(n) dato(s) y se manipulan
-$app->post('/modificarDato', function (Request $request) use ($app) {
+$app->post('/EnviarDato', function (Request $request) use ($app) {
    	$nombre = $request->get('nombre');
-	$respuesta = "Hola " .$nombre;
+	$respuesta = "SAVENF" .$nombre;
    	return $respuesta;
 });
 
