@@ -1,6 +1,11 @@
 .jumbotron {
-  background: #532F8C;
-  color: white;
+  background-image: url("/images/CAT.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 80px;
 }
 .jumbotron .btn-primary {
